@@ -1,3 +1,8 @@
+
+a{
+    color: white;
+}
+
 body {
     margin: 0;
     background-color: #252842;
@@ -54,6 +59,31 @@ body {
     height: 100%;
     background: radial-gradient(transparent 66%, rgba(0, 0, 0, 0.1) 66.1%);
   }
+  .planet a{
+      text-decoration: none;
+
+  }
+
+  .info {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	/* border: 2px solid crimson; */
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-top: 30px;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
+.info:hover {
+	color: white;
+	background-color:  crimson;
+}
+
+
+
   @media (max-width: 1200px) {
     .planet {
       font-size: 0.75em;
@@ -145,7 +175,7 @@ body {
     font-size: 4.5em;
     font-weight: bold;
     margin: 0;
-    color: #eee;
+    color: rgb(141, 12, 12);
     letter-spacing: 0.2em;
   }
   @media (min-width: 461px) {
@@ -154,6 +184,7 @@ body {
     }
   }
   .info {
+      
     position: fixed;
     bottom: 1.8em;
     font-size: 2.4em;
