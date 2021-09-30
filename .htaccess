@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Jaiantony 
-nainag143
-/
-.Htaccess-filr-to-increase-the-website-speed
-Public
-0
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-.Htaccess-filr-to-increase-the-website-speed/.htaccess
-@nainag143
-nainag143 Create .htaccess
-Latest commit a16db6b on Nov 2, 2016
- History
- 1 contributor
-48 lines (43 sloc)  1.64 KB
-   
-
-
 
 RewriteEngine On
 RewriteCond %{SERVER_PORT} !=443
@@ -76,16 +44,4 @@ ExpiresDefault "access plus 2 days"
     ExpiresActive on
     ExpiresDefault "access plus 1 week"
 </IfModule>
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
