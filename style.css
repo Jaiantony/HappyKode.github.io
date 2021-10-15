@@ -6,26 +6,7 @@
 	box-sizing: border-box;
 }
 
-a:link {
-	color: rgb(234, 240, 243);
-	background-color: transparent;
-	text-decoration: none;
-  }
-  a:visited {
-	color: rgb(243, 41, 10);
-	background-color: transparent;
-	text-decoration: none;
-  }
-  a:hover {
-	color: rgb(247, 242, 242);
-	background-color: transparent;
-	text-decoration: underline;
-  }
-  a:active {
-	color: rgb(22, 25, 236);
-	background-color: transparent;
-	text-decoration: underline;
-  }
+
 .content h2{
     font-size: 3rem;
 	text-transform: uppercase;
